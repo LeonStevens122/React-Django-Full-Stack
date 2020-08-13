@@ -1,0 +1,21 @@
+import React, { Component, Fragment } from "react";
+import ReactDom from "react-dom";
+import Header from "./layout/Header";
+import Dashboard from "./leads/Dashboard";
+
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Header />
+        <div className="container">
+          <h1> React App</h1>
+
+          <Dashboard />
+        </div>
+      </Fragment>
+    );
+  }
+}
+
+ReactDom.render(<App />, document.getElementById("app"));
