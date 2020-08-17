@@ -12,6 +12,6 @@ from configurations.wsgi import get_wsgi_application  # noqa
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'leadmanager.settings')
-
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'leadmanager')
+os.environ.setdefault("DJANGO_CONFIGURATION", "leadmanager")
 application = get_wsgi_application()
