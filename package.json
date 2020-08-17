@@ -7,6 +7,10 @@
     "dev": "webpack --mode development --watch ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
   },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.14.7"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
