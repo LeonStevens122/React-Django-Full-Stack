@@ -17,6 +17,8 @@ import django_heroku
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 
+#
+
 # Configure app for Heroku deployment
 django_heroku.settings(locals())
 
