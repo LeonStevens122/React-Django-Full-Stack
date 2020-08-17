@@ -12,6 +12,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'leadmanager')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project_name.settings.local")
 os.environ.setdefault("DJANGO_CONFIGURATION", "leadmanager")
 application = get_wsgi_application()
