@@ -1,3 +1,3 @@
-release leadmanager/python manage.py migrate
+release python leadmanager/manage.py migrate
 python leadmanager/manage.py runserver
 
