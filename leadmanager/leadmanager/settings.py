@@ -30,7 +30,7 @@ SECRET_KEY = 'a%nro&q_a8*$u%7do4ov9&c023w+ce8qmax4nh8))$m4ce@4)c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-react-lead-manager']
 
 
 # Application definition
