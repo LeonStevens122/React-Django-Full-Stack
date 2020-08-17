@@ -1,4 +1,4 @@
 release python leadmanager/manage.py migrate
-web: gunicorn leadmanager.wsgi:app --preload --log-file - --log-level debug
+web: gunicorn leadmanager.leadmanager.wsgi --preload --log-file - --log-level debug
 
 
