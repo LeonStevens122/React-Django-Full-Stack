@@ -25,6 +25,7 @@ export class Leads extends Component {
               <th>Name</th>
               <th>Email</th>
               <th>Message</th>
+              <th>Date</th>
               <th />
             </tr>
           </thead>
@@ -35,6 +36,8 @@ export class Leads extends Component {
                 <td>{lead.name}</td>
                 <td>{lead.email}</td>
                 <td>{lead.message}</td>
+
+                <td>{lead.created_at.slice(0, 10)}</td>
                 <td>
                   <button
                     onClick={this.props.deleteLead.bind(this, lead.id)}

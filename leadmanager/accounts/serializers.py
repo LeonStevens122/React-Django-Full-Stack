@@ -2,7 +2,7 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 
-# user Serializer
+# User Serializer
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -11,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ('id', 'username', 'email')
 
 
-# REgister Serializer
+# Register Serializer
 class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
